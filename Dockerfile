@@ -1,4 +1,4 @@
-FROM python:3.11.8-alpine3.18
+FROM python:3.13.0a6-alpine3.18
 
 COPY main.py /main.py
 COPY requirements.txt /requirements.txt
